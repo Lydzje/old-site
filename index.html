@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Me - lydzje</title>
+  <meta name="author" content="@lydzje_">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body onload="fadeIn()">
+  <div class="site-wrapper">
+
+    <!-- INDEX SECTION -->
+    <section id="index">
+      <nav id="navigator1" style="opacity:0">
+        <a id="home-link" onclick="moveTo('index')" style="opacity:inherit">LYDZJE</a>
+        <a id="about-link" onclick="moveTo('about')" style="opacity:inherit">ABOUT</a>
+        <a id="contact-link" onclick="moveTo('contact')" style="opacity:inherit">CONTACT</a>
+      </nav>
+      <div id="index-title" class="title-wrapper" disabled>
+        (in development...)
+        <h1>LYDZJE</h1>
+      </div>
+      <nav id="navigator2">
+        <a onclick="moveTo('about')">ABOUT</a>
+        <span>/</span>
+        <a id="last-nav2-link" onclick="moveTo('contact')">CONTACT</a>
+      </nav>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <div class="title-wrapper">
+        <h1>ABOUT</h1>
+      </div>
+      <div class="info">
+        <p>
+          Hello. I'm just a Computer Engineering student at
+          <a href="https://www.ual.es/en?idioma=en_GB" target="_blank">
+            <abbr title="Universidad de Almería">UAL</abbr>
+            <i class="fa fa-graduation-cap"></i>
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <div class="title-wrapper">
+        <h1>CONTACT</h1>
+      </div>
+      <div class="info">
+        <p>If you need to contact me, feel free to
+          <a href="mailto:lydzjesoftware@gmail.com">
+            send me an email <i class="fa fa-send-o"></i>
+          </a>
+        </p>
+
+        <p>You can also find me through the links below: </p>
+        <ul>
+          <a href="https://twitter.com/lydzje_" target="_blank">
+            <i class="fa fa-twitter contact-icon"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UC98yK2zGjN1C40r__tdQGHQ" target="_blank">
+            <i class="fa fa-youtube-play contact-icon"></i>
+          </a>
+          <a href="https://github.com/Lydzje" target="_blank">
+            <i class="fa fa-github contact-icon" ></i>
+          </a>
+          <a href="https://soundcloud.com/lydzje" target="_blank">
+            <i class="fa fa-soundcloud contact-icon"></i>
+          </a>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      © 2017 Lydzje
+      <a href="https://github.com/Lydzje/me#readme" target="_blank">
+        <i class="fa fa-github contact-icon"></i>
+      </a>
+    </footer>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/master.js"></script>
+</body>
+
+</html>
