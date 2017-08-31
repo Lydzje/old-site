@@ -182,6 +182,10 @@ section {
   color: white;
 }
 
+.info .fa-deviantart:hover {
+  color: #05CC47;
+}
+
 .info .fa-soundcloud:hover {
   color: #ff7700;
 }
