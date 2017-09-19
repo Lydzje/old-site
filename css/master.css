@@ -28,20 +28,20 @@ section {
   width: 100%;
   height: 100%;
   text-align: center;
-  webkit-transition: all 1s;
-  transition: all 1s;
+  webkit-transition: all 1s, z-index 0.001s;
+  transition: all 1s, z-index 0.001s;
 }
 
 #index {
   background-color: #f6f6f6;
-  z-index: 4;
+  z-index: 8;
 }
 
 #about {
   background-color: #56c9b6;
   top: 100%;
   bottom: -100%;
-  z-index: 3;
+  z-index: 5;
 }
 
 #contact {
