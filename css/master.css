@@ -88,6 +88,14 @@ section {
   font-size: 32px;
 }
 
+#about-link2 {
+  width: 93px;
+}
+
+#contact-link2 {
+  width: 130px;
+}
+
 #navigator1 a, #navigator2 a {
   display: inline-block;
   vertical-align: middle;
