@@ -10,4 +10,4 @@ under development :umbrella:
 
 _Contact me if there's any problem via email: to.lydzje@gmail.com_
 
-<p align="center">© 2017 Lydzje Software</p>
+<p align="center">© 2017 Lydzje</p>
