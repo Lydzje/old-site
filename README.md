@@ -8,6 +8,6 @@ under development :umbrella:
 <br>
 <br>
 
-_Contact me if there's any problem via email: lydzjesoftware@gmail.com_
+_Contact me if there's any problem via email: to.lydzje@gmail.com_
 
 <p align="center">© 2017 Lydzje Software</p>
