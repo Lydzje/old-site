@@ -35,8 +35,8 @@ var initialFading = true;
   ga('create', 'UA-103828585-1', 'auto');
   ga('send', 'pageview');
 
-// METHODS
-// -------
+// FUNCTIONS
+// ---------
 function moveTo(section) {
   if (initialFading) {
     initialFading = false;
