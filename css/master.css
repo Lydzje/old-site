@@ -150,6 +150,10 @@ section {
   font-size: 1.5em;
 }
 
+.info .fa-heart {
+  color: #c95669;
+}
+
 .info a {
   color: blue;
 }
@@ -164,6 +168,7 @@ section {
 
 .info ul a:hover {
   text-decoration: none;
+  font-weight: normal;
 }
 
 .info ul i {
