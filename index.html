@@ -8,6 +8,8 @@
   <meta name="email" content="to.lydzje@gmail.com">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P"> 
   <link rel="stylesheet" href="css/master.css">
 </head>
 
@@ -22,13 +24,16 @@
         <a id="contact-link" onclick="moveTo('contact')" style="opacity:inherit">CONTACT</a>
       </nav>
       <div id="index-title" class="title-wrapper" disabled>
-        (in development...)
         <h1>LYDZJE</h1>
       </div>
       <nav id="navigator2">
-        <a id="about-link2" onclick="moveTo('about')">ABOUT</a>
-        <span>/</span>
-        <a id="contact-link2" onclick="moveTo('contact')">CONTACT</a>
+        <a id="about-link2" onclick="moveTo('about')" onmouseover="setGoto('about')" onmouseout="setGoto('')">
+          <span>::</span><span>ABOUT</span><span>::</span>
+        </a>
+        <a id="contact-link2" onclick="moveTo('contact')" onmouseover="setGoto('contact')" onmouseout="setGoto('')">
+          <span>::</span><span>CONTACT</span><span>::</span>
+        </a>
+        <div id="command">&gt;&nbsp;<span>goto&nbsp;&nbsp;</span><span id="goto">...</span></div>
       </nav>
     </section>
 
@@ -46,7 +51,7 @@
           </a>
         </p>
         <p>
-          I <i class="fa fa-heart"></i>
+          and I <i class="fa fa-heart"></i>
           coding, painting and free-libre software
         </p>
       </div>

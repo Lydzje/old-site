@@ -6,6 +6,7 @@ var body = document.body;
 var index = document.getElementById('index');
 var about = document.getElementById('about');
 var contact = document.getElementById('contact');
+var goto = document.getElementById('goto');
 // index objects
 var indexTitle = document.getElementById('index-title');
 var nav1 = document.getElementById('navigator1');
@@ -13,12 +14,21 @@ var nav2 = document.getElementById('navigator2');
 // nav2 links
 var aboutLink = document.getElementById('about-link');
 var contactLink = document.getElementById('contact-link');
-
 var currentSection = "index";
 var initialFading = true;
 
 // INITIALIZATION
 // --------------
+// Blinking text
+function blink(){
+    if(goto.style.visibility=='hidden') {
+        goto.style.visibility='visible';
+    } else {
+        goto.style.visibility='hidden';
+    }
+}
+setInterval(blink, 500);
+
 // Google Analytics
   (function(i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -37,6 +47,12 @@ var initialFading = true;
 
 // FUNCTIONS
 // ---------
+function setGoto(here) {
+  if (here != '') {  
+    goto.innerHTML = here;
+  } else goto.innerHTML = '...'
+}
+
 function moveTo(section) {
   if (initialFading) {
     initialFading = false;

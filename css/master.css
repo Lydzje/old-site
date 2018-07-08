@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "Roboto Condensed";
-  src: url('../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf');
-}
-
 body {
   background-color: #f6f6f6;
   padding: 0;
@@ -16,8 +11,6 @@ a {
 }
 
 a:hover {
-  font-weight: bold;
-  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -68,8 +61,7 @@ section {
 
 #navigator2 {
   position: relative;
-  top: 35%;
-  text-align: center;
+  top: 30%;
   opacity: 0;
   pointer-events: none;
   user-select: none;
@@ -82,18 +74,36 @@ section {
   -webkit-transition-delay: 1s;
 }
 
-#navigator2 span {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 32px;
+#navigator2 a {
+  text-align: center;
 }
 
-#about-link2 {
-  width: 93px;
+#navigator2 a span:nth-child(2) {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
 }
 
-#contact-link2 {
-  width: 130px;
+#navigator2 a:hover span:nth-child(2) {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+#command {
+  display: block;
+  width: 250px;
+  background-color: white;
+  padding: 10px;
+  padding-left: 25px; /* 10 + 15 */ 
+  margin: auto;
+  border-radius: 7px;
+  margin-top: 70px;
+  text-align: left;
+  font-family: 'Press Start 2P';
+  font-size: 16px important!;
+}
+
+#command span {
+  font-size: 16px;
 }
 
 #navigator1 a, #navigator2 a {
@@ -125,19 +135,21 @@ section {
   font-weight: bold;
 }
 
-#index-title {
-  opacity: 0;
-  pointer-events: none;
-  transition: all 4s;
-  -webkit-transition: all 4s;
-}
-
 .title-wrapper {
   position: relative;
   top: 30%;
   text-align: center;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
+}
+
+#index-title {
+  position: relative;
+  top: 20%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 4s;
+  -webkit-transition: all 4s;
 }
 
 .title-wrapper h1 {
@@ -156,6 +168,17 @@ section {
 
 .info a {
   color: blue;
+}
+
+.info a .fa-send-o {
+  position: relative;
+  right: 0px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+.info a:hover .fa-send-o {
+  right: -10px;
 }
 
 .info ul a {
@@ -209,7 +232,6 @@ footer {
 footer a {
   color: black;
   font-weight: bold;
-  
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
 }
