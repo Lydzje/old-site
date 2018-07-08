@@ -49,7 +49,7 @@ function moveTo(section) {
   }
   // Closes current section
   if (currentSection == "index") {
-    body.style.backgroundColor = "#f6f6f6";
+    body.style.backgroundColor = "#c95669";
     index.style.height = "4em";
     indexTitle.style.opacity = "0";
     indexTitle.style.pointerEvents = "none";
