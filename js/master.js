@@ -55,7 +55,7 @@ setTimeout(
 	titleObj.incTimer = setInterval(
 	    function() {
 		incrementChrsSet(titleObj)
-	    }, 50
+	    }, 70
 	);
     }, 1500
 );
@@ -88,7 +88,7 @@ setTimeout(
 	aboutObj.incTimer = setInterval(
 	    function() {
 		incrementChrsSet(aboutObj)
-	    }, 50
+	    }, 70
 	);
     }, 2000
 );
@@ -121,7 +121,7 @@ setTimeout(
 	contactObj.incTimer = setInterval(
 	    function() {
 		incrementChrsSet(contactObj)
-	    }, 50
+	    }, 70
 	);
     }, 2500
 );
