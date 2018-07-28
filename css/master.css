@@ -92,6 +92,7 @@ section {
   display: block;
   width: 250px;
   background-color: white;
+  opacity: 0;
   padding: 10px;
   padding-left: 25px; /* 10 + 15 */ 
   margin: auto;
@@ -100,6 +101,10 @@ section {
   text-align: left;
   font-family: 'Press Start 2P';
   font-size: 16px important!;
+  transition: 2s;
+  -webkit-transition: 2s;
+  transition-delay: 2.85s;
+  -webkit-transition-delay: 2.85s;
 }
 
 #command span {
