@@ -132,7 +132,15 @@ setTimeout(
 
 // FUNCTIONS
 // ---------
-// Blinking text
+function fadeIn() {
+    indexTitle.style.opacity = "1";
+    indexTitle.style.pointerEvents = "auto";
+    nav2.style.opacity = "1";
+    nav2.style.pointerEvents = "auto";
+    command.style.opacity = "1";
+}
+
+
 function blink(){
     if(goto.style.visibility=='hidden') {
         goto.style.visibility='visible';
@@ -248,13 +256,4 @@ function moveTo(section) {
     aboutLink.style.pointerEvents = "auto";
     contactLink.style.pointerEvents = "none";
   }
-}
-
-
-function fadeIn() {
-    indexTitle.style.opacity = "1";
-    indexTitle.style.pointerEvents = "auto";
-    nav2.style.opacity = "1";
-    nav2.style.pointerEvents = "auto";
-    command.style.opacity = "1";
 }
