@@ -1,6 +1,6 @@
 # lydzje.github.io #
 
-This github-page is a kind of blank portfolio with some links. It stills
+This github-page is a kind of blank portfolio with some links. It's still
 under development :umbrella:
 
 **You can visit this gh-page through the following link:** https://lydzje.github.io
