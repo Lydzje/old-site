@@ -1,5 +1,5 @@
 body {
-  background-color: #f4f4f4;
+  background-color: #bbccff;
   padding: 0;
   margin: 0;
   font-family: "Roboto Condensed";
@@ -26,7 +26,7 @@ section {
 }
 
 #index {
-  background-color: #f6f6f6;
+  background-color: #bbccff;
   z-index: 8;
 }
 
@@ -45,7 +45,7 @@ section {
 }
 
 #navigator1 {
-  background-color: #f6f6f6;
+  background-color: #bbccff;
   position: relative;
   overflow: hidden;
   width: 100%;
