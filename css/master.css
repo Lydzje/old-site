@@ -1,5 +1,5 @@
 body {
-  background-color: #56a3c9;
+  background-color: #f6f6f6;
   padding: 0;
   margin: 0;
   font-family: "Roboto Condensed";
@@ -26,7 +26,7 @@ section {
 }
 
 #index {
-  background-color: #56a3c9;
+  background-color: #f6f6f6;
   z-index: 8;
 }
 
@@ -45,7 +45,7 @@ section {
 }
 
 #navigator1 {
-  background-color: #56a3c9;
+  background-color: #f6f6f6;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -91,7 +91,7 @@ section {
 #command {
   display: block;
   width: 250px;
-  background-color: white;
+  background-color: #111111;
   opacity: 0;
   padding: 10px;
   padding-left: 25px; /* 10 + 15 */ 
@@ -101,6 +101,7 @@ section {
   text-align: left;
   font-family: 'Press Start 2P';
   font-size: 16px important!;
+  color: white;
   transition: 2s;
   -webkit-transition: 2s;
   transition-delay: 2.95s;
