@@ -14,6 +14,10 @@ a:hover {
   cursor: pointer;
 }
 
+h1 {
+  margin: 0;
+}
+
 section {
   display: block;
   position: absolute;
@@ -23,6 +27,20 @@ section {
   text-align: center;
   -webkit-transition: all 1s, z-index 0.001s;
   transition: all 1s, z-index 0.001s;
+}
+
+.index-wrapper, .other-wrapper {
+  display: flex;
+  height: calc(100% - 140px) !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.other-wrapper {
+  position: relative;
+  top: 64px;
+  height: calc(100% - 64px) !important;
 }
 
 #index {
@@ -59,9 +77,11 @@ section {
   -webkit-transition: all 1s;
 }
 
+#index-title-text {
+  margin: 0;
+}
+
 #navigator2 {
-  position: relative;
-  top: 30%;
   opacity: 0;
   pointer-events: none;
   user-select: none;
@@ -97,7 +117,7 @@ section {
   padding-left: 25px; /* 10 + 15 */ 
   margin: auto;
   border-radius: 7px;
-  margin-top: 70px;
+  margin-top: 32px;
   text-align: left;
   font-family: 'Press Start 2P';
   font-size: 16px important!;
@@ -142,16 +162,13 @@ section {
 }
 
 .title-wrapper {
-  position: relative;
-  top: 30%;
+  margin-bottom: 64px;
   text-align: center;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
 }
 
 #index-title {
-  position: relative;
-  top: 20%;
   opacity: 0;
   pointer-events: none;
   transition: all 3s;
@@ -163,8 +180,7 @@ section {
 }
 
 .info {
-  position: relative;
-  top: 30%;
+  margin-bottom: 64px;
   font-size: 1.5em;
 }
 

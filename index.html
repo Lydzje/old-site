@@ -23,70 +23,78 @@
         <a id="about-link" onclick="moveTo('about')" style="opacity:inherit">ABOUT</a>
         <a id="contact-link" onclick="moveTo('contact')" style="opacity:inherit">CONTACT</a>
       </nav>
-      <div id="index-title" class="title-wrapper" disabled>
-        <h1 id="index-title-text">LYDZJE</h1>
+
+      <div class="index-wrapper">
+        <div id="index-title" class="title-wrapper" disabled>
+          <h1 id="index-title-text">LYDZJE</h1>
+        </div>
+        <nav id="navigator2">
+          <a id="about-link2" onclick="moveTo('about')" onmouseover="setGoto('about')" onmouseout="setGoto('')">
+            <span>::</span><span id="about-text">ABOUT</span><span>::</span>
+          </a>
+          <a id="contact-link2" onclick="moveTo('contact')" onmouseover="setGoto('contact')" onmouseout="setGoto('')">
+            <span>::</span><span id="contact-text">CONTACT</span><span>::</span>
+          </a>
+          <div id="command">&gt;&nbsp;<span>goto&nbsp;&nbsp;</span><span id="goto">...</span></div>
+        </nav>
       </div>
-      <nav id="navigator2">
-        <a id="about-link2" onclick="moveTo('about')" onmouseover="setGoto('about')" onmouseout="setGoto('')">
-          <span>::</span><span id="about-text">ABOUT</span><span>::</span>
-        </a>
-        <a id="contact-link2" onclick="moveTo('contact')" onmouseover="setGoto('contact')" onmouseout="setGoto('')">
-          <span>::</span><span id="contact-text">CONTACT</span><span>::</span>
-        </a>
-        <div id="command">&gt;&nbsp;<span>goto&nbsp;&nbsp;</span><span id="goto">...</span></div>
-      </nav>
+
     </section>
 
     <!-- ABOUT SECTION -->
     <section id="about">
-      <div class="title-wrapper">
-        <h1>ABOUT</h1>
-      </div>
-      <div class="info">
-        <p>
-          Hello, I'm just a Computer Engineering student at
-          <a href="https://www.ual.es/en?idioma=en_GB" target="_blank">
-            <abbr title="Universidad de Almería">UAL</abbr>
-            <i class="fa fa-graduation-cap"></i>
-          </a>
-        </p>
-        <p>
-          and I <i class="fa fa-heart"></i>
-          coding, painting and free-libre software
-        </p>
+      <div class="other-wrapper">
+        <div class="title-wrapper">
+          <h1>ABOUT</h1>
+        </div>
+        <div class="info">
+          <p>
+            Hello, I'm just a Computer Engineering student at
+            <a href="https://www.ual.es/en?idioma=en_GB" target="_blank">
+              <abbr title="Universidad de Almería">UAL</abbr>
+              <i class="fa fa-graduation-cap"></i>
+            </a>
+          </p>
+          <p>
+            and I <i class="fa fa-heart"></i>
+            coding, painting and free-libre software
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- CONTACT SECTION -->
     <section id="contact">
-      <div class="title-wrapper">
-        <h1>CONTACT</h1>
-      </div>
-      <div class="info">
-        <p>If you need to contact me, feel free to
-          <a href="mailto:to.lydzje@gmail.com">
-            send me an email <i class="fa fa-send-o"></i>
-          </a>
-        </p>
+      <div class="other-wrapper">
+        <div class="title-wrapper">
+          <h1>CONTACT</h1>
+        </div>
+        <div class="info">
+          <p>If you need to contact me, feel free to
+            <a href="mailto:to.lydzje@gmail.com">
+              send me an email <i class="fa fa-send-o"></i>
+            </a>
+          </p>
 
-        <p>You can also find me through the links below: </p>
-        <ul>
-          <a href="https://twitter.com/lydzje_" target="_blank">
-            <i class="fa fa-twitter contact-icon"></i>
-          </a>
-          <a href="https://www.youtube.com/channel/UC98yK2zGjN1C40r__tdQGHQ" target="_blank">
-            <i class="fa fa-youtube-play contact-icon"></i>
-          </a>
-          <a href="https://github.com/Lydzje" target="_blank">
-            <i class="fa fa-github contact-icon" ></i>
-          </a>
-          <a href="https://lydzje.deviantart.com/" target="_blank">
-            <i class="fa fa-deviantart contact-icon"></i>
-          </a>
-          <a href="https://soundcloud.com/lydzje" target="_blank">
-            <i class="fa fa-soundcloud contact-icon"></i>
-          </a>
-        </ul>
+          <p>You can also find me through the links below: </p>
+          <ul>
+            <a href="https://twitter.com/lydzje_" target="_blank">
+              <i class="fa fa-twitter contact-icon"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UC98yK2zGjN1C40r__tdQGHQ" target="_blank">
+              <i class="fa fa-youtube-play contact-icon"></i>
+            </a>
+            <a href="https://github.com/Lydzje" target="_blank">
+              <i class="fa fa-github contact-icon" ></i>
+            </a>
+            <a href="https://lydzje.deviantart.com/" target="_blank">
+              <i class="fa fa-deviantart contact-icon"></i>
+            </a>
+            <a href="https://soundcloud.com/lydzje" target="_blank">
+              <i class="fa fa-soundcloud contact-icon"></i>
+            </a>
+          </ul>
+        </div>
       </div>
     </section>
 
