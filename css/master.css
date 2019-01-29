@@ -31,7 +31,7 @@ section {
 
 .index-wrapper, .other-wrapper {
   display: flex;
-  height: calc(100% - 140px) !important;
+  height: calc(100% - 140px);
   align-items: center;
   justify-content: center;
   flex-direction: column;
