@@ -1,5 +1,8 @@
 # Old lydzje.github.io #
 
+
+[![License | Unlicense](https://img.shields.io/badge/license-unlicense-blue.svg)](https://github.com/Lydzje/vamp/blob/master/LICENSE)
+
 This github-page was a kind of blank portfolio with some links.
 
 **You can visit this gh-page through the following link:** https://lydzje.github.io/old-site
