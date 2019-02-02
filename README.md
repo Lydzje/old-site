@@ -9,4 +9,4 @@ This github-page was a kind of blank portfolio with some links.
 
 _Contact me if there's any problem via email: to.lydzje@gmail.com_
 
-<p align="center">© 2017 Lydzje</p>
+<p align="center">© 2017 Lydzje - No rights reserved</p>
